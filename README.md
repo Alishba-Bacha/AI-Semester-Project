@@ -23,8 +23,8 @@ This research expands current literature by thoroughly analyzing the DeepLesion 
 This study analyzed the DeepLesion dataset to understand how patient factors and lesion characteristics affect real-world lesion detection systems. Advanced methods like voxel-based mapping were employed to explore demographic differences in lesions. The findings indicate links between patient age, lesion type, and size distribution, contributing to more accurate and generalizable lesion detection systems.
 
 # Methodology
-Dataset
-# The DeepLesion dataset, available on Kaggle, was used in this investigation. It includes fields such as File_name, Patient_index, Study_index, Series_ID, Key_slice_index, Measurement_coordinates, Bounding_boxes, Lesion_diameters_Pixel_, Normalized_lesion_location, Coarse_lesion_type, Possibly_noisy, Slice_range, Spacing_mm_px_, Image_size, DICOM_windows, Patient_gender, Patient_age, and Train_Val_Test. The dataset is suitable for training and evaluating CAD systems in medical imaging.
+#Dataset
+The DeepLesion dataset, available on Kaggle, was used in this investigation. It includes fields such as File_name, Patient_index, Study_index, Series_ID, Key_slice_index, Measurement_coordinates, Bounding_boxes, Lesion_diameters_Pixel_, Normalized_lesion_location, Coarse_lesion_type, Possibly_noisy, Slice_range, Spacing_mm_px_, Image_size, DICOM_windows, Patient_gender, Patient_age, and Train_Val_Test. The dataset is suitable for training and evaluating CAD systems in medical imaging.
 
 # Overall Workflow
 The workflow involves several key stages, including building the dataset from a CSV file, extracting lesion features, and analyzing patient demographics. A logistic regression model is trained to predict lesion types based on patient information, with performance evaluated using metrics like accuracy, precision, recall, and F1 score.
