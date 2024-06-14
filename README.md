@@ -1,5 +1,5 @@
 # AI-Semester-Project
-# DeepLesion Analysis
+# DeepLeasion Analysis
 # Abstract
 This project explores the potential of PC-supported determination CAD (computer-aided design) frameworks to improve medical care by aiding clinical professionals in disease detection and treatment planning. The focus is on analyzing the DeepLesion dataset, which contains medically annotated images with lesions, to understand the relationship between patient demographics, lesion characteristics, and model performance. The study aims to develop more robust and generalizable CAD systems and contributes to a deeper understanding of disease patterns.
 
